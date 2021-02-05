@@ -1,0 +1,15 @@
+plugin-name=jdb
+plugin-namespace=jdk
+plugin-version=1.0.0-RELEASE
+plugin-author=PerfMa
+plugin-project=https://github.com/perfma/xpocket-plugin-jdb
+tools-author=Oracle
+plugin-type=java-tools
+plugin-dependency=
+jdk-version=1.8
+jvm=hotspot
+os=all
+sys-dependency=
+usage-tips=1.使用jdb -help获取详细帮助信息。\n 2.使用jdb -listconnectors 获取当前支持的所有连接器。\n 3.可以使用例如 jdb -connect com.sun.jdi.SocketAttach:hostname=127.0.0.1,port=8000 链接已经开启debug模式的java进程。 \n 4.使用jdb -classspath .:$CLASS_PATH 来启动jdb会话（windows上需要使用;分隔多个路径），然后通过stop in/at 设置断点并使用run启动一个可以被debug的java进程。\n 5.启动jdb会话以后也可以通过help命令获取详细帮助。
+plugin-command-package=com.perfma.xpocket.plugin.jdb
+main-implementation=com.perfma.xpocket.plugin.jdb.JDBPlugin
