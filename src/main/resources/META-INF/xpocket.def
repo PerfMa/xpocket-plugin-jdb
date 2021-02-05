@@ -1,6 +1,6 @@
 plugin-name=jdb
 plugin-namespace=jdk
-plugin-version=1.0.0-RELEASE
+plugin-version=1.0.1-SNAPSHOT
 plugin-author=PerfMa
 plugin-project=https://github.com/perfma/xpocket-plugin-jdb
 tools-author=Oracle
