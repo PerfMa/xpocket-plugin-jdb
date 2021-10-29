@@ -1,6 +1,7 @@
 plugin-name=jdb
 plugin-namespace=jdk
-plugin-version=1.0.0-RELEASE
+plugin-version=1.0.1-RELEASE
+plugin-description=XPocket plugin implementation of JDB.\n The Java Debugger, jdb, is a simple command-line debugger for Java classes. It is a demonstration of the Java Platform Debugger Architecture that provides inspection and debugging of a local or remote Java Virtual Machine. \n Learn more : https://plugin.xpocket.perfma.com/plugin/56
 plugin-author=PerfMa
 plugin-project=https://github.com/perfma/xpocket-plugin-jdb
 tools-author=Oracle
